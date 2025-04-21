@@ -1,20 +1,20 @@
-# 🏥 Hospital Patients Record Analysis
+# Hospital Patients Record Analysis
 
 ![Hospital Dashboard Cover](https://github.com/user-attachments/assets/047f5e6c-6fcf-4590-801b-a0c4792be128)
 
 ---
 
-## 🎯 Aim
+## Aim
 
-The aim of this analysis is to assess hospital performance metrics—particularly **encounter costs**, **procedure duration**, **readmissions**, and **insurance influence**—to identify trends and provide actionable recommendations that support strategic decision-making, cost containment, and improved patient care outcomes.
+The aim of this analysis is to assess hospital performance metrics—particularly** **encounter costs**, **procedure duration**, **readmissions**, and **insurance influence** to identify trends and provide actionable recommendations that support strategic decision-making, cost containment, and improved patient care outcomes.
 
 📌 Key recommendations include cost control, readmission management, and procedural efficiency.
 
 ---
 
-## 🧹 Data Preparation & Modeling
+## Data Preparation & Modeling
 
-### 🔗 Data Connection and Transformation
+### Data Connection and Transformation
 
 Using Power BI Desktop, I imported and cleaned datasets related to encounters, patients, procedures, payers (insurance), and organizations. Key transformations included:
 
@@ -24,7 +24,7 @@ Using Power BI Desktop, I imported and cleaned datasets related to encounters, p
 - Extracted Month, Year, Quarter from encounter start dates for time-based analysis
 - Ensured consistent formatting for fields like Gender, Encounter Class, and Procedure Reason
 
-### 🌐 Relational Data Model
+### Relational Data Model
 
 The data model follows a **star schema** structure, with a central **Encounter Fact Table** and linked dimension tables:
 
@@ -38,15 +38,15 @@ The data model follows a **star schema** structure, with a central **Encounter F
 
 ---
 
-## 📊 Visualizations
+## Visualizations
 
-### 1️⃣ Encounter Cost Analysis
+### Encounter Cost Analysis
 
 - Average Encounter Cost increased **12.74%** from 2011 to 2022  
 - Notable rise began in 2020, with a **4.42% ($5.0)** increase in 2 years  
 - Sharpest annual spike occurred between 2011 and 2012: from **$105.8 → $112.5**
 
-#### 💳 Payer Insights
+#### Payer Insights
 
 - **Medicare** had the highest total encounter cost: **$1.32M**  
 - This was **1,522.55%** higher than **Anthem** ($81K)  
@@ -57,7 +57,7 @@ The data model follows a **star schema** structure, with a central **Encounter F
 
 ---
 
-### 2️⃣ Procedure Utilization and Duration
+### Procedure Utilization and Duration
 
 - Total procedure volume: **11,000 cases**  
 - Average procedure duration: **7.25 hours**
@@ -69,15 +69,15 @@ The data model follows a **star schema** structure, with a central **Encounter F
 
 ---
 
-### 3️⃣ Admissions and Readmissions Trends
+### Admissions and Readmissions Trends
 
-#### 📉 Admissions Over Time
+#### Admissions Over Time
 
 - Decreased **26.91%** from Jan 2011 to Jan 2022  
 - Most significant drop: **Oct 2014–2020** (−189 admissions / −26.73%)  
 - Earlier spike: **301 → 640 admissions** from Jan 2011 to Jul 2014  
 
-#### 🔄 Readmission Insights
+#### Readmission Insights
 
 - **"Encounter for problem (procedure)"**: Top reason for readmissions  
   - **4,239 cases** (30.45% of total)  
@@ -87,7 +87,7 @@ The data model follows a **star schema** structure, with a central **Encounter F
 
 ---
 
-## ✅ Recommendations
+## Recommendations
 
 1. **Address Rising Encounter Costs**  
    Review post-2020 clinical and admin workflows to identify cost drivers.
